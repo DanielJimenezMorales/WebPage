@@ -8,13 +8,13 @@
 body
 {
 	font-family: sans-serif;
+	background-color: #191c32;
 }
 
 .wrapper
 {
 	width:  100vw; /* 100% viewport width*/
 	height:  100vh; /* 100% viewport height*/
-	background-color: #191c32;
 	color:  #fff;
 }
 
@@ -34,6 +34,7 @@ body
 {
 	color: #fff;
 	text-decoration: none; /*Para quitar el subrayado de abajo de las letras*/
+	padding: 10px 20px;
 }
 
 .navbar
@@ -51,4 +52,31 @@ body
 .menu a:hover
 {
 	background-color: aquamarine;
+	color: #191c32;
+	transition: ease-in .15s;
+}
+
+.main
+{
+	margin: 0 auto;
+	width: 80vw;
+	height: 80vh;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	align-items: center;
+}
+
+.download-cv
+{
+	padding: 10px 20px;
+	background-color: aquamarine;
+	border: none;
+	border-radius: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.download-cv:hover
+{
+	background-color: white;
 }
