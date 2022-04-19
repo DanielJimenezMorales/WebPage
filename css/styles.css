@@ -9,3 +9,46 @@ body
 {
 	font-family: sans-serif;
 }
+
+.wrapper
+{
+	width:  100vw; /* 100% viewport width*/
+	height:  100vh; /* 100% viewport height*/
+	background-color: #191c32;
+	color:  #fff;
+}
+
+.menu
+{
+	display: flex;
+	width: 50vw;
+	justify-content: space-around;
+}
+
+.menu li
+{
+	list-style: none; /*Para quitar los puntos de la lista del menu*/
+}
+
+.menu a
+{
+	color: #fff;
+	text-decoration: none; /*Para quitar el subrayado de abajo de las letras*/
+}
+
+.navbar
+{
+	display: flex; /*Para que se pongan unos elementos al lado de otros*/
+	justify-content: space-between; /*Para hacer que un elemento se ponga a la derecha y el otro a la izquierda*/
+	padding: 2em;
+}
+
+.menu .active
+{
+	color: aquamarine;
+}
+
+.menu a:hover
+{
+	background-color: aquamarine;
+}
